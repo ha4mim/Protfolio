@@ -1,56 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Hamim's Personal Site</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sheikh Hamim Mahmud - Portfolio</title>
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Particles.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="hamim's profile pic.png" alt="hamim's profile picture" style="width: 100px;">
-    <h1>Sheikh Hamim Mahmud</h1>
-    <p><em>Learner,Programmer,Developer</em></p>
-    <p>I am a Final year Student,Dept. Of CSE,Studing at Uiversity of Development Alternative <strong>(UODA)</strong></p>
-    <hr>
-    <h2>Education</h2>
-    <p>Higher Secoundary School Certificate <strong>(HSC)</strong> <br>
-        <ul>
-            <li><strong>College Name:</strong> Govt. Bangabandhu College,Gopalganj.
-        </ul>   
-        <ul>
-            <li><strong>Passing Year:</strong>2013</li>
-        </ul></li> 
-    </p>
-    
-    <p>Secoundary School Certificate <strong>(SSC)</strong> <br>
-        <ul>
-            <li><strong>School Name:</strong> Moulvibazar Govt. High School,Moulvibazar.
-            </li>
-        </ul>  
-        <ul>
-            <li><strong>Passing Year:</strong>2011</li>
-        </ul>  
-    </p>
-    
-    <p>Primary School<br>
-        <ul>
-            <li><strong>School Name:</strong>Govt. Sishu Primary School,Moulvibazar.
-            </li>
-        </ul>  
-        <ul>
-            <li><strong>Passing Year:</strong>2005</li>
-        </ul>  
-    </p>
-    <hr>
-    <h2>Hobbies</h2>
-    <ol>
-        <li>Reading</li>
-        <li>Riding</li>
-        <li>Cooking</li>
-        <li>Coding</li>
-    </ol>
+  <!-- Particles Background -->
+  <div id="particles-js"></div>
 
+  <!-- Header Section -->
+  <header class="header-parallax text-center">
+    <div class="header-overlay fade-in">
+      <h1 class="display-4 fw-bold mb-2">Sheikh Hamim Mahmud</h1>
+      <p class="fs-4">Software Engineer | .NET & SaaS Specialist</p>
+      <div class="mt-4">
+        <a href="https://www.linkedin.com/in/sheikh-hamim-mahmuud2688h510h/" class="social-icon text-white"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/h4hmi" class="social-icon text-white"><i class="fab fa-github"></i></a>
+        <a href="mailto:hamimmahmu111@gmail.com" class="social-icon text-white"><i class="fas fa-envelope"></i></a>
+        <a href="tel:+8801740999226" class="social-icon text-white"><i class="fas fa-phone"></i></a>
+      </div>
+    </div>
+  </header>
 
-    
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-md bg-dark fixed-top shadow-lg">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a href="#about" class="nav-link text-white">About</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link text-white">Education</a></li>
+          <li class="nav-item"><a href="#training" class="nav-link text-white">Training</a></li>
+          <li class="nav-item"><a href="#career-objective" class="nav-link text-white">Career Objective</a></li>
+          <li class="nav-item"><a href="#career-summary" class="nav-link text-white">Career Summary</a></li>
+          <li class="nav-item"><a href="#employment" class="nav-link text-white">Employment</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link text-white">Skills</a></li>
+          <li class="nav-item"><a href="#qualifications" class="nav-link text-white">Qualifications</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link text-white">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about" class="bg-white relative">
+    <div class="container text-center">
+      <div class="section-header">
+        <svg class="section-icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+        <h2 class="fs-2 fw-bold mb-4 fade-in">About Me</h2>
+      </div>
+      <hr class="decorative-line">
+      <img src="images/profile.jpg" alt="Profile Photo" class="profile-photo mx-auto mb-4 fade-in">
+      <p class="fs-5 text-dark mx-auto fade-in">
+        I'm Sheikh Hamim Mahmud, a passionate software engineer with a BSc in Computer Science and Engineering. With over 2 years of experience in .NET technologies and SaaS-based platforms, I specialize in developing scalable, user-centric applications. Based in Dhaka, Bangladesh, I’m a competitive programmer, fast learner, and team player ready to tackle challenging projects.
+      </p>
+      <p class="fs-5 text-dark mt-4 mx-auto fade-in">
+        <strong>Personal Details:</strong><br>
+        Name: Sheikh Hamim Mahmud<br>
+        Date of Birth: 28 October 1996<br>
+        Address: 615, Road-06, West Nakhalpara, Tejgaon, Dhaka-1215, Bangladesh<br>
+        Nationality: Bangladeshi<br>
+        Email: <a href="mailto:hamimmahmu111@gmail.com" class="text-primary"><i class="fas fa-envelope"></i> hamimmahmu111@gmail.com</a><br>
+        Mobile: <a href="tel:+8801740999226" class="text-primary"><i class="fas fa-phone"></i> +8801740999226</a><br>
+        LinkedIn: <a href="https://www.linkedin.com/in/sheikh-hamim-mahmuud2688h510h/" class="text-primary"><i class="fab fa-linkedin"></i> Profile</a><br>
+        GitHub: <a href="https://github.com/h4hmi" class="text-primary"><i class="fab fa-github"></i> Profile</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="bg-light relative">
+    <div class="container">
+      <div class="section-header">
+        <svg class="section-icon" viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg>
+        <h2 class="fs-2 fw-bold mb-4 fade-in">Education</h2>
+      </div>
+      <hr class="decorative-line">
+      <div class="row">
+        <div class="col-md-4 mb-4 fade-in">
+          <h3 class="fs-4 fw-semibold">BSc in Computer Science and Engineering</h3>
+          <p class="text-muted">University of Development Alternative (UODA), Dhaka, Bangladesh</p>
+          <p class="text-dark">CGPA: 3.80 (out of 4.00)</p>
+          <p class="text-dark">Passing Year: 2023</p>
+        </div>
+        <div class="col-md-4 mb-4 fade-in">
+          <h3 class="fs-4 fw-semibold">Higher Secondary Certificate (HSC)</h3>
+          <p class="text-muted">[Your College Name], Dhaka, Bangladesh</p>
+          <p class="text-dark">GPA: 5.00 (out of 5.00)</p>
+          <p class="text-dark">Passing Year: 2014</p>
+        </div>
+        <div class="col-md-4 mb-4 fade-in">
+          <h3 class="fs-4 fw-semibold">Secondary School Certificate (SSC)</h3>
+          <p class="text-muted">[Your School Name], Gopalganj, Bangladesh</p>
+          <p class="text-dark">GPA: 5.00 (out of 5.00)</p>
+          <p class="text-dark">Passing Year: 2012</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Training Section -->
+  <section id="training" class="bg-white relative">
+    <div class="container">
+      <div class="section-header">
+        <svg class="section-icon" viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9h-4v4h-2v-4H9V9h4V5h2v4h4v2z"/></svg>
+        <h2 class="fs-2 fw-bold mb-4 fade-in">Training</h2>
+      </div>
+      <hr class="decorative-line">
+      <div class="row">
+        <div class="col-md-6 mb-4 fade-in">
+          <h3 class="fs-4 fw-semibold">.NET Development Training</h3>
+          <p class="text-muted">[Training Institute Name], Dhaka, Bangladesh</p>
+          <p class="text-dark">Year: 2022</p>
+          <p class="text-dark">Focused on advanced .NET Web Forms, MVC, and Web API development, with hands-on projects in SaaS-based systems and SQL Server stored procedures.</p>
+        </div>
+        <div class="col-md-6 mb-4 fade-in">
+          <h3 class="fs-4 fw-semibold">Competitive Programming Workshop</h3>
+          <p class="text-muted">[Training Institute Name], Online</p>
+          <p class="text-dark">Year: 2021</p>
+          <p class="text-dark">Enhanced problem-solving skills through platforms like HackerRank, Virtual Judge, and Beecrowd, focusing on algorithms and data structures.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Career Objective Section -->
+  <section id="career-objective" class="bg-light relative">
+    <div class="container">
+      <div class="section-header">
+        <svg class="section-icon" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4 8-8z"/></svg>
+        <h2 class="fs-2 fw-bold mb-4 fade-in">Career Objective</h2>
+      </div>
+      <hr class="decorative-line">
+      <p class="fs-5 text-dark mx-auto fade-in">
+        Dynamic and results-oriented software engineer with over two years of experience in developing robust SaaS-based solutions using .NET Web Forms, .NET MVC, Web API, and SQL Server, complemented by expertise in stored procedures and Kendo UI. Seeking a challenging role in a forward-thinking organization to design and optimize innovative HRM and PMS software. Committed to leveraging my technical proficiency, rapid learning ability, and passion for delivering scalable, user-centric applications to drive organizational success and foster continuous professional growth.
+      </p>
+    </div>
+  </section>
+
+  <!-- Career Summary Section -->
+  <section id="career-summary" class="bg-white relative">
+    <div class="container">
+      <div class="section-header">
+        <svg class="section-icon" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg>
+        <h2 class="fs-2 fw-bold mb-4 fade-in">Career Summary</h2>
+      </div>
+      <hr class="decorative-line">
+      <p class="fs-5 text-dark mx-auto fade-in">
+        Proven software engineer with a BSc in Computer Science and Engineering and 2+ years of experience in delivering high-quality web applications, specializing in .NET technologies and SaaS-based platforms. Currently thriving at Techbee Solutions Ltd. developing a SaaS-based Performance Management System (PMS) using .NET Web Forms and stored procedures. Previously excelled at Azolution Software & Engineers Ltd. enhancing HRM software for 274+ clients, including Bashundhara and Meghna Group, supporting 200,000+ users. Adept at mastering new technologies, solving complex problems, and collaborating across teams to deliver innovative solutions. Passionate about embracing cutting-edge tools and contributing to transformative software projects.
+      </p>
+    </div>
+  </section>
+
+  <!-- Employment History Section -->
+  <section id="employment" class="bg-light relative">
+    <div class="container">
+      <div class="section-header">
+        <svg class="section-icon" viewBox="0 0 24 24"><path d="M6 8c0-2.21 1.79-4 4-4s4 1.79 4 4-1.79 4-4 4-4-1.79-4-4zm6 10c0 .55-.45 1-1 1H7c-.55 0-1-.45-1-1v-4h2v2h2v-2h2v4zm6-7h-2v2h2v2h-2v2h-2v-2h2v-2h-2v-2h2v-2h2v2z"/></svg>
+        <h2 class="fs-2 fw-bold mb-4 fade-in">Employment History</h2>
+      </div>
+      <hr class="decorative-line">
+      <div class="row">
+        <div class="col-md-6 mb-4 fade-in">
+          <h3 class="fs-4 fw-semibold">Associate Software Engineer</h3>
+          <p class="text-muted">Techbee Solutions Ltd. (Nov 2024 - Present)</p>
+          <ul class="list-group list-group-flush text-dark fs-6">
+            <li class="list-group-item">Developing a SaaS-based Performance Management System (PMS) using .NET Web Forms, ensuring scalability and seamless user experience for enterprise clients.</li>
+            <li class="list-group-item">Designing and implementing efficient stored procedures in SQL Server to optimize data operations, enhancing system performance and reliability.</li>
+            <li class="list-group-item">Collaborating with cross-functional teams to gather requirements, translate business needs into technical solutions, and deliver features on time.</li>
+            <li class="list-group-item">Conducting rigorous testing and debugging to ensure high-quality, bug-free code deployment in a fast-paced Agile environment.</li>
+          </ul>
+        </div>
+        <div class="col-md-6 mb-4 fade-in">
+          <h3 class="fs-4 fw-semibold">Assistant Software Engineer</h3>
+          <p class="text-muted">Azolution Software & Engineers Ltd. (Aug 2023 - Nov 2024)</p>
+          <ul class="list-group list-group-flush text-dark fs-6">
+            <li class="list-group-item">Developed the "Meeting Matrix" module for Renata PLC using Web API and EF-Core, enabling streamlined conference room reservations with single-line approval.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="bg-white relative">
+    <div class="container">
+      <div class="section-header">
+        <svg class="section-icon" viewBox="0 0 24 24"><path d="M3 17v2h6v-2H3zM3 5v2h10V5H3zm10 16v-2h8v-2h-8v-2h-2v6h2zM7 9v2H3v2h4v2h2V9H7zm14 4v-2H11v2h10zm-6-4h2V7h4V5h-4V3h-2v6z"/></svg>
+        <h2 class="fs-2 fw-bold mb-4 fade-in">Skills</h2>
+      </div>
+      <hr class="decorative-line">
+      <div class="row">
+        <div class="col-md-4 mb-4 fade-in">
+          <h3 class="fs-5 fw-semibold">Technical Skills</h3>
+          <div class="skill-item">
+            <span>.NET Technologies</span>
+            <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>SQL Server</span>
+            <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>Kendo UI & EF-Core</span>
+            <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>Competitive Programming</span>
+            <div class="skill-bar"><div class="skill-progress" style="width: 75%;"></div></div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4 fade-in">
+          <h3 class="fs-5 fw-semibold">Language Skills</h3>
+          <ul class="list-group list-group-flush text-dark fs-6">
+            <li class="list-group-item">Bengali - Fluent (Speaking, Reading, Writing)</li>
+            <li class="list-group-item">English - Fluent (Speaking, Reading, Writing)</li>
+            <li class="list-group-item">Hindi - Fluent (Speaking)</li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-4 fade-in">
+          <h3 class="fs-5 fw-semibold">Soft Skills</h3>
+          <ul class="list-group list-group-flush text-dark fs-6">
+            <li class="list-group-item">Fast Learner & Self-Starter</li>
+            <li class="list-group-item">Team Collaboration & Individual Work</li>
+            <li class="list-group-item">Verbal Communication & Presentation</li>
+            <li class="list-group-item">Problem Solving</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Special Qualifications Section -->
+  <section id="qualifications" class="bg-light relative">
+    <div class="container">
+      <div class="section-header">
+        <svg class="section-icon" viewBox="0 0 24 24"><path d="M22 11V3h-7v3H9V3H2v8h7V8h2v10h4v3h7v-8h-7v3h-2V8h2v3h7zM7 9H4V5h3v4zm10 6h3v4h-3v-4zm0-10h3v4h-3V5z"/></svg>
+        <h2 class="fs-2 fw-bold mb-4 fade-in">Special Qualifications</h2>
+      </div>
+      <hr class="decorative-line">
+      <ul class="list-group list-group-flush text-dark fs-6 mx-auto fade-in">
+        <li class="list-group-item">Competitive Programmer with problem-solving experience on Virtual Judge, HackerRank, and Beecrowd.</li>
+        <li class="list-group-item">Fast, hardworking, and self-learner, adept at mastering new technologies quickly.</li>
+        <li class="list-group-item">Strong verbal communication and presentation skills.</li>
+        <li class="list-group-item">Proven ability to work effectively in team and individual environments.</li>
+        <li class="list-group-item">Flexible and ready for on-site, client-site, or remote job opportunities.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-white relative">
+    <div class="container">
+      <div class="section-header">
+        <svg class="section-icon" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        <h2 class="fs-2 fw-bold mb-4 fade-in">Contact Me</h2>
+      </div>
+      <hr class="decorative-line">
+      <div class="row">
+        <div class="col-md-6 mb-4 fade-in">
+          <h3 class="fs-5 fw-semibold">Get in Touch</h3>
+          <p class="text-dark fs-6">
+            <i class="fas fa-envelope social-icon text-primary"></i> <a href="mailto:hamimmahmu111@gmail.com">hamimmahmu111@gmail.com</a><br>
+            <i class="fas fa-phone social-icon text-primary"></i> <a href="tel:+8801740999226">+8801740999226</a><br>
+            <i class="fab fa-linkedin social-icon text-primary"></i> <a href="https://www.linkedin.com/in/sheikh-hamim-mahmuud2688h510h/">LinkedIn Profile</a><br>
+            <i class="fab fa-github social-icon text-primary"></i> <a href="https://github.com/h4hmi">GitHub Profile</a>
+          </p>
+          <a href="files/SheikhHamimMahmud_CV.pdf" download class="btn btn-primary mt-4 fs-6">Download CV <i class="fas fa-download"></i></a>
+        </div>
+        <div class="col-md-6 mb-4 fade-in">
+          <h3 class="fs-5 fw-semibold">Send a Message</h3>
+          <form name="contact" method="POST" data-netlify="true" class="bg-white p-4 rounded shadow-lg">
+            <input type="hidden" name="form-name" value="contact">
+            <input type="text" id="name" name="name" placeholder="Your Name" class="form-control mb-3 fs-6" required>
+            <input type="tel" id="mobile" name="mobile" placeholder="Mobile Number" class="form-control mb-3 fs-6" required>
+            <input type="email" id="email" name="email" placeholder="Email Address" class="form-control mb-3 fs-6" required>
+            <textarea id="message" name="message" placeholder="Your Message" class="form-control mb-3 fs-6" rows="4" required></textarea>
+            <button type="submit" class="btn btn-primary w-100 fs-6">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="fs-6 mb-0">Made with love by Hamim - 2025 &copy;</p>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <div class="scroll-to-top" onclick="scrollToTop()">
+    <svg class="scroll-progress" viewBox="0 0 64 64">
+      <circle cx="32" cy="32" r="30"></circle>
+    </svg>
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="scripts.js"></script>
 </body>
-</html> 
+</html>
