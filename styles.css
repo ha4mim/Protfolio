@@ -10,7 +10,7 @@ section {
   position: relative;
 }
 .header-parallax {
-  background: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzA0cGNmaDA1ejYyeGo4dGRwb2IwbmxiNTBvMTVrcXF3c3RlM3d6ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JpLVqOg8xTY3EmoYF7/giphy.gif') center/cover fixed;
+  background: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGN5ZnB0Z3BlaTRjbWNodG05eXUyazBhNTF3NTdwZHZjODM1b3MxeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VTtANKl0beDFQRLDTh/giphy.gif') center/cover fixed;
   height: 100vh;
   display: flex;
   align-items: center;
