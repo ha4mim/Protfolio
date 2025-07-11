@@ -187,6 +187,36 @@ section {
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,0.9)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
+/* SweetAlert2 Custom Styles */
+.swal2-popup {
+  font-family: 'Poppins', sans-serif;
+  border-radius: 0.5rem;
+}
+.swal2-title {
+  color: #1e3a8a;
+  font-weight: 600;
+}
+.swal2-content {
+  color: #333;
+}
+.swal2-confirm {
+  background: linear-gradient(90deg, #1e40af, #3b82f6) !important;
+  border: none !important;
+  color: white !important;
+  border-radius: 0.25rem !important;
+}
+.swal2-confirm:hover {
+  background: linear-gradient(90deg, #3b82f6, #1e40af) !important;
+}
+.swal2-icon.swal2-success .swal2-success-ring {
+  border-color: #28a745 !important;
+}
+.swal2-icon.swal2-error {
+  border-color: #dc3545 !important;
+}
+.swal2-icon.swal2-warning {
+  border-color: #facc15 !important;
+}
 footer {
   background-color: #1e3a8a;
   color: white;

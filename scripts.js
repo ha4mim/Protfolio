@@ -64,8 +64,20 @@ window.addEventListener('scroll', () => {
 });
 const contactForm = document.querySelector('form[name="contact"]');
 if (contactForm) {
+  const submitButton = contactForm.querySelector('button[type="submit"]');
   contactForm.addEventListener('submit', async (e) => {
     e.preventDefault();
+    submitButton.disabled = true;
+    submitButton.textContent = 'Sending...';
+    Swal.fire({
+      title: 'Sending Message',
+      text: 'Please wait...',
+      allowOutsideClick: false,
+      showConfirmButton: false,
+      didOpen: () => {
+        Swal.showLoading();
+      }
+    });
     const formData = new FormData(contactForm);
     try {
       const response = await fetch('/', {
@@ -74,13 +86,31 @@ if (contactForm) {
         body: new URLSearchParams(formData).toString()
       });
       if (response.ok) {
-        alert('Message sent successfully!');
+        Swal.fire({
+          icon: 'success',
+          title: 'Success!',
+          text: 'Your message has been sent successfully. I will get back to you soon!',
+          confirmButtonText: 'OK'
+        });
         contactForm.reset();
       } else {
-        alert('Failed to send message. Please try again.');
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: 'Failed to send message. Please try again or email me at hamimmahmu111@gmail.com.',
+          confirmButtonText: 'OK'
+        });
       }
     } catch (error) {
-      alert('An error occurred. Please try again later.');
+      Swal.fire({
+        icon: 'warning',
+        title: 'Warning',
+        text: 'An error occurred. Please try again later or email me at hamimmahmu111@gmail.com.',
+        confirmButtonText: 'OK'
+      });
+    } finally {
+      submitButton.disabled = false;
+      submitButton.textContent = 'Send Message';
     }
   });
 }
