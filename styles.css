@@ -1,7 +1,7 @@
 body {
   scroll-behavior: smooth;
   font-family: 'Poppins', sans-serif;
-  background-color: #c8c8c8;
+  background-color: #8d99ae;
   overflow-x: hidden;
 }
 section {
@@ -11,11 +11,11 @@ section {
 }
 .header-parallax {
   background: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzA0cGNmaDA1ejYyeGo4dGRwb2IwbmxiNTBvMTVrcXF3c3RlM3d6ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JpLVqOg8xTY3EmoYF7/giphy.gif') center/cover fixed;
-  height: 80vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgb(47, 47, 47);
+  color: rgb(255, 255, 255);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   position: relative;
 }
